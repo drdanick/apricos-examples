@@ -32,7 +32,7 @@ Executing an example
 To execute an example, enter the following:
 
 ```
-aprcosim <example-name>.bin
+aprsim <example-name>.bin
 ```
 
 Licence
