@@ -13,7 +13,7 @@ To assemble the examples, you will need:
 
 To run the examples, you will need:
 
-- [apricosim](http://github.com/drdanick/apricosim-curses/) 0.6+
+- [apricosim](http://github.com/drdanick/apricosim-curses/) 0.6.1+
 
 
 Assembling
