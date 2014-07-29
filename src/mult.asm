@@ -40,6 +40,12 @@ STal
 
 AND 0x00       ; Zero $a2
 
+; Perform multiplication
+;
+; We do this by repeatedly adding $a0 to $a2, as well as 
+; repeatedly incrementing $a1. As soon as $a1 is non-negative, 
+; we stop. $a2 will then hold our result.
+;
 LOOPST:
     ASET 0     ; Place first operand on the stack
     SPUSH
@@ -49,4 +55,4 @@ LOOPST:
 
     ASET 1     ; Increment our counter and loop if still negative
     ADD 1
-    BRn
+BRn
