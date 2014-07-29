@@ -9,7 +9,7 @@ Requirements
 
 To assemble the examples, you will need:
 
-- [apricosasm](http://github.com/drdanick/apricosasm-java/) 1.0+
+- [apricosasm](http://github.com/drdanick/apricosasm-java/) 1.11+
 
 To run the examples, you will need:
 
