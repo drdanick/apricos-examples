@@ -8,10 +8,7 @@ ASET 0    ; select and zero $a0
 AND 0x00
 
 ADD 0x0A  ; Push 0xA0 to the stack
-SHFl      ; We want 0xA0, so shift left 4 times
-SHFl
-SHFl
-SHFl
+SHFl 4    ; We want 0xA0, so shift left 4 times
 SPUSH
 
 AND 0x00  ; Zero $a
