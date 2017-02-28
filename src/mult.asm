@@ -24,20 +24,8 @@ ADD 0x03
 NOT            ; 2s compliment negation of $a1
 ADD 0x01
 
-; Load address of LOOPST into $mr
-;
-; We can't do it all at once since LEA makes use of $mr, so store 
-; the lower half of the address on the stack while the upper half 
-; is loaded.
-;
+; Prepare output
 ASET 2
-LEAl LOOPST    ; Load lower octet
-SPUSH
-LEAh LOOPST    ; Load upper octet
-STah
-SPOP
-STal
-
 AND 0x00       ; Zero $a2
 
 ; Perform multiplication
@@ -55,4 +43,4 @@ LOOPST:
 
     ASET 1     ; Increment our counter and loop if still negative
     ADD 1
-BRn
+BRn LOOPST

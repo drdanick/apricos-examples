@@ -9,11 +9,11 @@ Requirements
 
 To assemble the examples, you will need:
 
-- [apricosasm](http://github.com/drdanick/apricosasm-java/) 1.11+
+- [apricosasm](http://github.com/drdanick/apricosasm-java/) 1.3+
 
 To run the examples, you will need:
 
-- [apricosim](http://github.com/drdanick/apricosim-curses/) 0.6.1+
+- [apricosim](http://github.com/drdanick/apricosim-curses/) 0.9+
 
 
 Assembling
