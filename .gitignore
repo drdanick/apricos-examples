@@ -1,0 +1,11 @@
+# Vim
+*.swp
+
+# Apricot binaries
+*.bin
+
+# Apricot disk images
+*.dsk
+
+# Apricot symbols files
+*.sym
